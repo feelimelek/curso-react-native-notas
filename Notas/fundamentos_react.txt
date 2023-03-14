@@ -1,0 +1,8 @@
+
+Componentes do react native têm um mapeamento direto com os elementos visuais nativos. Se isso fosse renderizado na web, seria o equivalente a uma div
+
+Dentro de uma view -> retornaram 2 elementos textuais.
+Dá um problema, pois há dois elementos jsx adjacentes, o que não é permitido dentro do react. 
+Para resolver isso, envolver o código em fragment:
+Fragment ou react.fragment ou <> </> -> para agrupar dois elementos, podendo retornar dois elementos, pois não dá para retornar 
+Assim, retorno 2 textos, sem estar dentro da view

@@ -1,0 +1,36 @@
+Configurando o ambiente:
+1 - Usar a documentação oficial
+
+https://pt-br.reactjs.org/docs/getting-started.html
+
+Environmental setup
+
+Duas opções
+
+Expo Quickstart - problema de instalação (n tem 
+máquina compatível)
+
+Reactive native CLI Quickstart
+
+2 - Instala chocolatey - gerenciador de pacotes do windows (p o windows)
+
+3 - instalar o node, python e JDK 8
+
+4 - Instalar o android studio
+
+5 - Configurar variáveis de ambiente
+
+6 - Configurar o projeto
+
+Mac
+1 - Usar a documentação oficial
+
+2 - Instalar Homebrew
+
+3 - Instalar Node e Watchman
+
+4 - Configurar Java
+
+5 - Configurar o Android Studio 
+
+6 - Configurar o Emulador

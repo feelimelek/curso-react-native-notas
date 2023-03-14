@@ -1,0 +1,123 @@
+Seção 1: Introdução
+
+1. Visão Geral do Curso
+
+O computador mais usado do mundo é o celular.
+Para dominar o mercado é muito importante saber programar para mobile.
+
+Aprenderemos React, Reactive Native e JS. 
+Projeto para fundamentos
+- Fundamentos do React e do React Form (base para componentização)
+- Componentes
+- Eventos
+Comunicação entre comp.
+- Navegação
+
+Projeto calculadora
+- Consolidar os fundamentos
+- Componentizacao - como organizar uma aplicacao componentizada
+- Lógica + simples em JS
+Projeto campo minado
+- componentização
+- separação da Lógica/UI (interface gráfica)
+- modal (para mostrar o nivel do jogo)
+- lógica + complexa
+Projeto todo
+- login/registro
+- versao offline
+- backend node
+- integracao c/ backend
+Projeto Instagram Clone 
+- Redux 
+- Firebase como sendo o backend da aplicacao
+- uso Câmera/Galeria
+- várias navegações e estrategias diferentes
+- Storage
+
+2. Repositório do Curso
+https://github.com/cod3rcursos/curso-react-native
+
+Versões atualizadas para 2022 -> https://github.com/cod3rcursos/curso-react-native/tree/master/2022
+
+3. O que é Reactive Native
+
+React Core - núcleo será foco do curso. Essa parte é usada tanto em React Native quanto em React Dom. É o coração do react
+    Temos dois caminhos 
+    Parte central do React que cuida da componentização
+
+    Dentro, tem: 
+        - React Dom (Web) - não será foco do curso
+
+        - React Native (Mobile) - foco do curso
+
+        React Native: Como funciona?
+            - UI - Interface - JSX criado vai gerar componentes nativos para ios e android
+            - JS - A parte de JS vai ser a da lógica. E será rodada dentro de runtimes JS, que vão estar disponibilizados tanto em ios quanto em android. ios usa a parte do js coree Webkit. Não se pega o JS e traduz para java para android e para swift para apple.
+            Android usa v8 - enjine que dá poder ao node, ao android ao chrome - (2 runtimes são chamados dentro de cada dispositivo para executar o código JS. A comunicação com os recursos nativos de cada dispositivo vai ser acessado via web socket). 
+            Os componentes
+            Componentes visuais serão de fato os componentes nativos. 
+            
+            Vai ter uma forma peculiar de fazer o styling. 
+            Style sheet - guiado por flexbox principalmente
+           
+            Define interface gráfica usando JSX e ai traduz para ios e para android: 
+                 UI => JSX   -> iOS
+                        -> Android
+
+4. Preciso saber JS?
+    No final do curso tem uma sessão para revisar JS. 
+    Na 1a aula, o objetivo é chegar direto na parte de React.
+    Se quiser, começa pelos extras do JS e aí vai para a 1a.
+
+5. Usando o terminal
+    "
+    Terminais
+    Fala galera! Tranquilo?
+
+    Venho passar uma dica rápida e super importante pra quem tá iniciando na área de programação agora. Essa dica serve para qualquer ambiente ou curso que você vá fazer.
+
+
+    O terminal do seu sistema operacional, seja ele Windows, Linux ou Mac, é super importante. É uma ferramenta importante de ser dominada e que será utilizada em qualquer ambiente de qualquer linguagem ou tecnologia. Vou deixar aqui links para os posts feitos lá no Blog da Cod3r sobre esse assunto.
+
+    Caso vocês não saibam muito sobre os terminais ou se tiverem dúvidas sobre o assunto, recomendo que deem uma olhada.
+
+    Windows -> https://blog.cod3r.com.br/terminal-no-windows/
+
+    Linux/Mac -> https://blog.cod3r.com.br/terminal-no-macos-e-linux/
+
+    Bons estudos, galera!
+    "
+
+    Terminal Windows -  revisão
+    - CMD vs PowerShell (PowerShell é uma evolução do CMD)
+    - para abrir o CMD, procurar por CMD ou Prompt
+    - dir => exibe os arquivos e pastas em certo diretório 
+    - cd para navegar nas pastas
+    - cd + nome da pasta => entra na pasta
+    - cd .. => volta uma pasta
+    - clear => limpa os comandos do terminal, não muda a execução
+    - mkdir => criar uma nova pasta
+    - del + nome da pasta/arquivo => apagar arquivos ou pastas
+    - help => lista todos comandos possíveis
+    - várias tecnologias podem ser rodadas no terminal
+        - node JS é uma delas
+            - depois de instalar na máquina, os comandos npm ou node "ativam" o node
+        - flutter é outra
+        - dart também
+
+    Terminal MacOS ou Linux
+    - para abrir o terminal, procurar por "terminal" (no mac "command + espaco" funciona tb)
+    - ls => demonstra as pastas e os arquivos que estão na pasta
+    - ls -a => mosstra todos arquivos, inclusive os escondidos
+    - ls -l => mostra todos arquivos com mais informações sobre cada um deles
+    - ls -al => -a e -l juntos 
+    - pwd => printa o caminho atual no terminal (para onde ele está apontando)
+    - cd => navega entre os diretórios, funciona igual ao do windows
+    - clear => funciona igual ao do windows
+    - COMMAND + K => terminal será renovado e zerado
+    - mkdir => funciona igual ao do windows
+    - rm arquivo => para deletar arquivos
+    - rmdir pasta => para deletar pastas
+    
+6. Terminais
+
